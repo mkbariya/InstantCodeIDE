@@ -1,7 +1,7 @@
 const User = require("../models/userModel");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const Project = require("../models/projectmodel");
+const project = require("../models/projectModel")
 const defaultCodeSnippets = require("../utils/Validator");
 const { normalizeLanguage } = require("../utils/LanguageMapper");
 require("dotenv").config();
